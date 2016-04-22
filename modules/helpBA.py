@@ -409,13 +409,13 @@ class HelpBA(QMainWindow):
 
 
         self.fileHomeAction = QAction(self,"fileHomeAction")
-        self.fileHomeAction.setIconSet(QIconSet(self.image0))
+        self.fileHomeAction.setIconSet(QIcon(self.image0))
         self.fileBackAction = QAction(self,"fileBackAction")
-        self.fileBackAction.setIconSet(QIconSet(self.image1))
+        self.fileBackAction.setIconSet(QIcon(self.image1))
         self.fileForwardAction = QAction(self,"fileForwardAction")
-        self.fileForwardAction.setIconSet(QIconSet(self.image2))
+        self.fileForwardAction.setIconSet(QIcon(self.image2))
         self.fileExitAction = QAction(self,"fileExitAction")
-        self.fileExitAction.setIconSet(QIconSet(self.image3))
+        self.fileExitAction.setIconSet(QIcon(self.image3))
 
 
         self.toolBar = QToolBar(QString(""),self,Qt.DockTop)

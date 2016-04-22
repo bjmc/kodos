@@ -204,9 +204,9 @@ class RegexLibraryBA(QMainWindow):
         RegexLibraryBALayout.addWidget(self.tabWidget3,1,0)
 
         self.editPasteAction = QAction(self,"editPasteAction")
-        self.editPasteAction.setIconSet(QIconSet(self.image1))
+        self.editPasteAction.setIconSet(QIcon(self.image1))
         self.helpHelpAction = QAction(self,"helpHelpAction")
-        self.helpHelpAction.setIconSet(QIconSet(self.image2))
+        self.helpHelpAction.setIconSet(QIcon(self.image2))
         self.exitAction = QAction(self,"exitAction")
 
 

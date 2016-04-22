@@ -70,7 +70,7 @@ class RecentFiles:
         for i in range(num):
             filename = self.__recent_files[i]
             idx = self.parent.fileMenu.insertItem(
-                QIconSet(QPixmap(xpm.newIcon)),
+                QIcon(QPixmap(xpm.newIcon)),
                 filename)
 
             self.__indecies.insert(0, idx)
@@ -95,7 +95,7 @@ class RecentFiles:
         menu = self.parent.fileMenu
         idx = menu.indexOf(self.__indecies[0])
         menu.removeItem(menuid)
-        menu.insertItem(QIconSet(QPixmap(xpm.newIcon)),
+        menu.insertItem(QIcon(QPixmap(xpm.newIcon)),
                         filename,
                         -1,
                         idx)
